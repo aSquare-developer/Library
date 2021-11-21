@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		754D72B1274AA4E900F79FFD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754D72B0274AA4E900F79FFD /* User.swift */; };
+		754D72B3274AA54800F79FFD /* UserDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754D72B2274AA54800F79FFD /* UserDataManager.swift */; };
+		754D72B5274AA5A900F79FFD /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754D72B4274AA5A900F79FFD /* RegistrationViewController.swift */; };
+		754D72B7274AABD400F79FFD /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754D72B6274AABD400F79FFD /* Artist.swift */; };
+		754D72B9274AAC1D00F79FFD /* MusicDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754D72B8274AAC1D00F79FFD /* MusicDataManager.swift */; };
+		754D72BC274AADD500F79FFD /* Music.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 754D72BB274AADD500F79FFD /* Music.storyboard */; };
+		754D72BE274AAE3900F79FFD /* GenresTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754D72BD274AAE3900F79FFD /* GenresTableViewController.swift */; };
+		754D72C0274AAE8800F79FFD /* ArtistsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754D72BF274AAE8800F79FFD /* ArtistsTableViewController.swift */; };
+		754D72C2274AAEDB00F79FFD /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754D72C1274AAEDB00F79FFD /* CustomTableViewCell.swift */; };
+		754D72C4274AAF0700F79FFD /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754D72C3274AAF0700F79FFD /* DetailsViewController.swift */; };
 		7586DE102749A09300FAB88C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7586DE0F2749A09300FAB88C /* AppDelegate.swift */; };
 		7586DE122749A09300FAB88C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7586DE112749A09300FAB88C /* SceneDelegate.swift */; };
 		7586DE142749A09300FAB88C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7586DE132749A09300FAB88C /* LoginViewController.swift */; };
@@ -23,6 +33,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		754D72B0274AA4E900F79FFD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		754D72B2274AA54800F79FFD /* UserDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataManager.swift; sourceTree = "<group>"; };
+		754D72B4274AA5A900F79FFD /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		754D72B6274AABD400F79FFD /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		754D72B8274AAC1D00F79FFD /* MusicDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDataManager.swift; sourceTree = "<group>"; };
+		754D72BB274AADD500F79FFD /* Music.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Music.storyboard; sourceTree = "<group>"; };
+		754D72BD274AAE3900F79FFD /* GenresTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenresTableViewController.swift; sourceTree = "<group>"; };
+		754D72BF274AAE8800F79FFD /* ArtistsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsTableViewController.swift; sourceTree = "<group>"; };
+		754D72C1274AAEDB00F79FFD /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		754D72C3274AAF0700F79FFD /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		7586DE0C2749A09300FAB88C /* Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Library.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7586DE0F2749A09300FAB88C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7586DE112749A09300FAB88C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +71,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		754D72BA274AAD5D00F79FFD /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				754D72BD274AAE3900F79FFD /* GenresTableViewController.swift */,
+				754D72BF274AAE8800F79FFD /* ArtistsTableViewController.swift */,
+				754D72C1274AAEDB00F79FFD /* CustomTableViewCell.swift */,
+				754D72C3274AAF0700F79FFD /* DetailsViewController.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
 		7586DE032749A09200FAB88C = {
 			isa = PBXGroup;
 			children = (
@@ -73,9 +104,9 @@
 			children = (
 				7586DE282749A16F00FAB88C /* Services */,
 				7586DE272749A16200FAB88C /* Models */,
-				7586DE232749A0CE00FAB88C /* Configs */,
 				7586DE262749A14B00FAB88C /* ViewControllers */,
 				7586DE242749A12E00FAB88C /* Storyboards */,
+				7586DE232749A0CE00FAB88C /* Configs */,
 				7586DE252749A14200FAB88C /* Resources */,
 			);
 			path = Library;
@@ -97,6 +128,7 @@
 				7586DE152749A09300FAB88C /* Main.storyboard */,
 				7586DE1A2749A0A300FAB88C /* LaunchScreen.storyboard */,
 				7586DE372749A55F00FAB88C /* Serial.storyboard */,
+				754D72BB274AADD500F79FFD /* Music.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -112,8 +144,10 @@
 		7586DE262749A14B00FAB88C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				754D72BA274AAD5D00F79FFD /* Music */,
 				7586DE302749A49600FAB88C /* Serial */,
 				7586DE132749A09300FAB88C /* LoginViewController.swift */,
+				754D72B4274AA5A900F79FFD /* RegistrationViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -122,6 +156,8 @@
 			isa = PBXGroup;
 			children = (
 				7586DE2B2749A3E200FAB88C /* Serial.swift */,
+				754D72B0274AA4E900F79FFD /* User.swift */,
+				754D72B6274AABD400F79FFD /* Artist.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -130,6 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				7586DE2D2749A45400FAB88C /* SerialDataManager.swift */,
+				754D72B2274AA54800F79FFD /* UserDataManager.swift */,
+				754D72B8274AAC1D00F79FFD /* MusicDataManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -202,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				754D72BC274AADD500F79FFD /* Music.storyboard in Resources */,
 				7586DE2A2749A1E200FAB88C /* .gitignore in Resources */,
 				7586DE382749A55F00FAB88C /* Serial.storyboard in Resources */,
 				7586DE1C2749A0A300FAB88C /* LaunchScreen.storyboard in Resources */,
@@ -219,11 +258,20 @@
 			files = (
 				7586DE322749A4DD00FAB88C /* SerialCategoryViewController.swift in Sources */,
 				7586DE142749A09300FAB88C /* LoginViewController.swift in Sources */,
+				754D72C2274AAEDB00F79FFD /* CustomTableViewCell.swift in Sources */,
+				754D72B3274AA54800F79FFD /* UserDataManager.swift in Sources */,
+				754D72B5274AA5A900F79FFD /* RegistrationViewController.swift in Sources */,
 				7586DE102749A09300FAB88C /* AppDelegate.swift in Sources */,
+				754D72BE274AAE3900F79FFD /* GenresTableViewController.swift in Sources */,
+				754D72B9274AAC1D00F79FFD /* MusicDataManager.swift in Sources */,
 				7586DE122749A09300FAB88C /* SceneDelegate.swift in Sources */,
+				754D72C4274AAF0700F79FFD /* DetailsViewController.swift in Sources */,
+				754D72B7274AABD400F79FFD /* Artist.swift in Sources */,
 				7586DE362749A53000FAB88C /* SerialViewController.swift in Sources */,
+				754D72B1274AA4E900F79FFD /* User.swift in Sources */,
 				7586DE2E2749A45400FAB88C /* SerialDataManager.swift in Sources */,
 				7586DE2C2749A3E200FAB88C /* Serial.swift in Sources */,
+				754D72C0274AAE8800F79FFD /* ArtistsTableViewController.swift in Sources */,
 				7586DE342749A50700FAB88C /* SerialListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
