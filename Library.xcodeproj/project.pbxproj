@@ -14,6 +14,12 @@
 		7586DE192749A0A300FAB88C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7586DE182749A0A300FAB88C /* Assets.xcassets */; };
 		7586DE1C2749A0A300FAB88C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7586DE1A2749A0A300FAB88C /* LaunchScreen.storyboard */; };
 		7586DE2A2749A1E200FAB88C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7586DE292749A1E200FAB88C /* .gitignore */; };
+		7586DE2C2749A3E200FAB88C /* Serial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7586DE2B2749A3E200FAB88C /* Serial.swift */; };
+		7586DE2E2749A45400FAB88C /* SerialDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7586DE2D2749A45400FAB88C /* SerialDataManager.swift */; };
+		7586DE322749A4DD00FAB88C /* SerialCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7586DE312749A4DD00FAB88C /* SerialCategoryViewController.swift */; };
+		7586DE342749A50700FAB88C /* SerialListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7586DE332749A50700FAB88C /* SerialListViewController.swift */; };
+		7586DE362749A53000FAB88C /* SerialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7586DE352749A53000FAB88C /* SerialViewController.swift */; };
+		7586DE382749A55F00FAB88C /* Serial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7586DE372749A55F00FAB88C /* Serial.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		7586DE1B2749A0A300FAB88C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7586DE1D2749A0A300FAB88C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7586DE292749A1E200FAB88C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		7586DE2B2749A3E200FAB88C /* Serial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serial.swift; sourceTree = "<group>"; };
+		7586DE2D2749A45400FAB88C /* SerialDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialDataManager.swift; sourceTree = "<group>"; };
+		7586DE312749A4DD00FAB88C /* SerialCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialCategoryViewController.swift; sourceTree = "<group>"; };
+		7586DE332749A50700FAB88C /* SerialListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialListViewController.swift; sourceTree = "<group>"; };
+		7586DE352749A53000FAB88C /* SerialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialViewController.swift; sourceTree = "<group>"; };
+		7586DE372749A55F00FAB88C /* Serial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Serial.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +96,7 @@
 			children = (
 				7586DE152749A09300FAB88C /* Main.storyboard */,
 				7586DE1A2749A0A300FAB88C /* LaunchScreen.storyboard */,
+				7586DE372749A55F00FAB88C /* Serial.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -99,6 +112,7 @@
 		7586DE262749A14B00FAB88C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				7586DE302749A49600FAB88C /* Serial */,
 				7586DE132749A09300FAB88C /* LoginViewController.swift */,
 			);
 			path = ViewControllers;
@@ -107,6 +121,7 @@
 		7586DE272749A16200FAB88C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7586DE2B2749A3E200FAB88C /* Serial.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -114,8 +129,19 @@
 		7586DE282749A16F00FAB88C /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				7586DE2D2749A45400FAB88C /* SerialDataManager.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		7586DE302749A49600FAB88C /* Serial */ = {
+			isa = PBXGroup;
+			children = (
+				7586DE312749A4DD00FAB88C /* SerialCategoryViewController.swift */,
+				7586DE332749A50700FAB88C /* SerialListViewController.swift */,
+				7586DE352749A53000FAB88C /* SerialViewController.swift */,
+			);
+			path = Serial;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7586DE2A2749A1E200FAB88C /* .gitignore in Resources */,
+				7586DE382749A55F00FAB88C /* Serial.storyboard in Resources */,
 				7586DE1C2749A0A300FAB88C /* LaunchScreen.storyboard in Resources */,
 				7586DE192749A0A300FAB88C /* Assets.xcassets in Resources */,
 				7586DE172749A09300FAB88C /* Main.storyboard in Resources */,
@@ -190,9 +217,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7586DE322749A4DD00FAB88C /* SerialCategoryViewController.swift in Sources */,
 				7586DE142749A09300FAB88C /* LoginViewController.swift in Sources */,
 				7586DE102749A09300FAB88C /* AppDelegate.swift in Sources */,
 				7586DE122749A09300FAB88C /* SceneDelegate.swift in Sources */,
+				7586DE362749A53000FAB88C /* SerialViewController.swift in Sources */,
+				7586DE2E2749A45400FAB88C /* SerialDataManager.swift in Sources */,
+				7586DE2C2749A3E200FAB88C /* Serial.swift in Sources */,
+				7586DE342749A50700FAB88C /* SerialListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
