@@ -17,6 +17,12 @@
 		754D72C0274AAE8800F79FFD /* ArtistsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754D72BF274AAE8800F79FFD /* ArtistsTableViewController.swift */; };
 		754D72C2274AAEDB00F79FFD /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754D72C1274AAEDB00F79FFD /* CustomTableViewCell.swift */; };
 		754D72C4274AAF0700F79FFD /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754D72C3274AAF0700F79FFD /* DetailsViewController.swift */; };
+		754D72C6274ABECC00F79FFD /* Film.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 754D72C5274ABECC00F79FFD /* Film.storyboard */; };
+		754D72C8274ABF5200F79FFD /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754D72C7274ABF5200F79FFD /* Film.swift */; };
+		754D72CA274AC0F900F79FFD /* FilmDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754D72C9274AC0F900F79FFD /* FilmDataManager.swift */; };
+		754D72CD274AD29600F79FFD /* FilmUniverseListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754D72CC274AD29500F79FFD /* FilmUniverseListTableViewController.swift */; };
+		754D72CF274AD68E00F79FFD /* FilmListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754D72CE274AD68E00F79FFD /* FilmListTableViewController.swift */; };
+		754D72D1274ADC4400F79FFD /* FilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754D72D0274ADC4400F79FFD /* FilmViewController.swift */; };
 		7586DE102749A09300FAB88C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7586DE0F2749A09300FAB88C /* AppDelegate.swift */; };
 		7586DE122749A09300FAB88C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7586DE112749A09300FAB88C /* SceneDelegate.swift */; };
 		7586DE142749A09300FAB88C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7586DE132749A09300FAB88C /* LoginViewController.swift */; };
@@ -43,6 +49,12 @@
 		754D72BF274AAE8800F79FFD /* ArtistsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsTableViewController.swift; sourceTree = "<group>"; };
 		754D72C1274AAEDB00F79FFD /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		754D72C3274AAF0700F79FFD /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		754D72C5274ABECC00F79FFD /* Film.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Film.storyboard; sourceTree = "<group>"; };
+		754D72C7274ABF5200F79FFD /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		754D72C9274AC0F900F79FFD /* FilmDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmDataManager.swift; sourceTree = "<group>"; };
+		754D72CC274AD29500F79FFD /* FilmUniverseListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmUniverseListTableViewController.swift; sourceTree = "<group>"; };
+		754D72CE274AD68E00F79FFD /* FilmListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmListTableViewController.swift; sourceTree = "<group>"; };
+		754D72D0274ADC4400F79FFD /* FilmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmViewController.swift; sourceTree = "<group>"; };
 		7586DE0C2749A09300FAB88C /* Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Library.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7586DE0F2749A09300FAB88C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7586DE112749A09300FAB88C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +92,16 @@
 				754D72C3274AAF0700F79FFD /* DetailsViewController.swift */,
 			);
 			path = Music;
+			sourceTree = "<group>";
+		};
+		754D72CB274AD26A00F79FFD /* Film */ = {
+			isa = PBXGroup;
+			children = (
+				754D72CC274AD29500F79FFD /* FilmUniverseListTableViewController.swift */,
+				754D72CE274AD68E00F79FFD /* FilmListTableViewController.swift */,
+				754D72D0274ADC4400F79FFD /* FilmViewController.swift */,
+			);
+			path = Film;
 			sourceTree = "<group>";
 		};
 		7586DE032749A09200FAB88C = {
@@ -129,6 +151,7 @@
 				7586DE1A2749A0A300FAB88C /* LaunchScreen.storyboard */,
 				7586DE372749A55F00FAB88C /* Serial.storyboard */,
 				754D72BB274AADD500F79FFD /* Music.storyboard */,
+				754D72C5274ABECC00F79FFD /* Film.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -144,6 +167,7 @@
 		7586DE262749A14B00FAB88C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				754D72CB274AD26A00F79FFD /* Film */,
 				754D72BA274AAD5D00F79FFD /* Music */,
 				7586DE302749A49600FAB88C /* Serial */,
 				7586DE132749A09300FAB88C /* LoginViewController.swift */,
@@ -158,6 +182,7 @@
 				7586DE2B2749A3E200FAB88C /* Serial.swift */,
 				754D72B0274AA4E900F79FFD /* User.swift */,
 				754D72B6274AABD400F79FFD /* Artist.swift */,
+				754D72C7274ABF5200F79FFD /* Film.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -168,6 +193,7 @@
 				7586DE2D2749A45400FAB88C /* SerialDataManager.swift */,
 				754D72B2274AA54800F79FFD /* UserDataManager.swift */,
 				754D72B8274AAC1D00F79FFD /* MusicDataManager.swift */,
+				754D72C9274AC0F900F79FFD /* FilmDataManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -241,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				754D72BC274AADD500F79FFD /* Music.storyboard in Resources */,
+				754D72C6274ABECC00F79FFD /* Film.storyboard in Resources */,
 				7586DE2A2749A1E200FAB88C /* .gitignore in Resources */,
 				7586DE382749A55F00FAB88C /* Serial.storyboard in Resources */,
 				7586DE1C2749A0A300FAB88C /* LaunchScreen.storyboard in Resources */,
@@ -256,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				754D72CD274AD29600F79FFD /* FilmUniverseListTableViewController.swift in Sources */,
 				7586DE322749A4DD00FAB88C /* SerialCategoryViewController.swift in Sources */,
 				7586DE142749A09300FAB88C /* LoginViewController.swift in Sources */,
 				754D72C2274AAEDB00F79FFD /* CustomTableViewCell.swift in Sources */,
@@ -263,13 +291,17 @@
 				754D72B5274AA5A900F79FFD /* RegistrationViewController.swift in Sources */,
 				7586DE102749A09300FAB88C /* AppDelegate.swift in Sources */,
 				754D72BE274AAE3900F79FFD /* GenresTableViewController.swift in Sources */,
+				754D72C8274ABF5200F79FFD /* Film.swift in Sources */,
+				754D72CF274AD68E00F79FFD /* FilmListTableViewController.swift in Sources */,
 				754D72B9274AAC1D00F79FFD /* MusicDataManager.swift in Sources */,
 				7586DE122749A09300FAB88C /* SceneDelegate.swift in Sources */,
+				754D72D1274ADC4400F79FFD /* FilmViewController.swift in Sources */,
 				754D72C4274AAF0700F79FFD /* DetailsViewController.swift in Sources */,
 				754D72B7274AABD400F79FFD /* Artist.swift in Sources */,
 				7586DE362749A53000FAB88C /* SerialViewController.swift in Sources */,
 				754D72B1274AA4E900F79FFD /* User.swift in Sources */,
 				7586DE2E2749A45400FAB88C /* SerialDataManager.swift in Sources */,
+				754D72CA274AC0F900F79FFD /* FilmDataManager.swift in Sources */,
 				7586DE2C2749A3E200FAB88C /* Serial.swift in Sources */,
 				754D72C0274AAE8800F79FFD /* ArtistsTableViewController.swift in Sources */,
 				7586DE342749A50700FAB88C /* SerialListViewController.swift in Sources */,

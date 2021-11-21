@@ -233,6 +233,7 @@
                     <connections>
                         <segue destination="RZt-60-Bsy" kind="relationship" relationship="viewControllers" id="j8M-96-b2M"/>
                         <segue destination="z2s-lD-LYD" kind="relationship" relationship="viewControllers" id="u0A-Wo-jQI"/>
+                        <segue destination="D8t-Gv-mDP" kind="relationship" relationship="viewControllers" id="NGx-az-ppc"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mye-C9-9db" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -247,7 +248,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nae-xp-aWa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2804.0625" y="-239.78873239436621"/>
+            <point key="canvasLocation" x="2791" y="-89"/>
         </scene>
         <!--Music-->
         <scene sceneID="8l8-tz-8OW">
@@ -257,7 +258,17 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xap-4u-50Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2810" y="52"/>
+            <point key="canvasLocation" x="2792" y="77"/>
+        </scene>
+        <!--Film-->
+        <scene sceneID="BFo-q8-2bG">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Film" id="D8t-Gv-mDP" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="uda-TO-ciy"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l1E-ui-QgU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2783" y="236"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Jzq-wX-LLT">
